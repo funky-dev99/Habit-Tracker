@@ -103,7 +103,9 @@ class HabitDatabase {
       };
 
       heatMapDataSet.addEntries(percentForEachDay.entries);
-      print(heatMapDataSet);
+
+        print(heatMapDataSet);
+
     }
   }
 }

@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey[600],
       floatingActionButton: MyFloatingActionButton(onPressed: createNewHabit),
       body: ListView(
         children: [
