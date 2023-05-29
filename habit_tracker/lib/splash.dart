@@ -17,7 +17,7 @@ class _SplashState extends State<Splash> {
     // that need to be done before showing the main screen.
 
     // Simulate a delay of 3 seconds using a Future.delayed
-    Future.delayed(Duration(seconds: 3), () {
+    Future.delayed(Duration(seconds: 4), () {
       // After the delay, navigate to the home page
       Navigator.pushReplacement(
         context,
@@ -32,9 +32,18 @@ class _SplashState extends State<Splash> {
       backgroundColor: Colors.white,
       body:
       Center(
-        child: Image.asset('images/handshake.gif',
-        height: 125,
-        width: 125,),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset('images/habitp.png',
+            height: 400,
+            width: 400,),
+
+            Image.asset('images/loading.gif',
+              height: 55,
+              width: 55,),
+          ],
+        ),
       ),
     );
   }

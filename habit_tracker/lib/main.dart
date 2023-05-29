@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:habit_tracker/pages/home_page.dart';
 import 'package:habit_tracker/splash.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Splash(),
+      home:       const Splash(),
       theme: ThemeData(primarySwatch: Colors.green),
     );
   }
